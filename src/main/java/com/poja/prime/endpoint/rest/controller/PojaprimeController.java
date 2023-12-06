@@ -7,7 +7,7 @@ import java.math.BigInteger;
 import java.util.Random;
 
 @RestController
-public class PrimeController {
+public class PojaprimeController {
 
   @GetMapping("/new-prime")
   public String getNewPrime() {
